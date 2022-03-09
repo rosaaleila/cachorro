@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    height: 90px;
+    background-color: rgb(133, 40, 40);
+}
+
+img {
+    max-height: 900px;
+    height: 400px;
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    flex-grow: 1;
+    background-color: rgb(27, 3, 3)
+}
