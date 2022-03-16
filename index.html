@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="main.js" defer></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./modal.css">
     <title>cachorritos</title>
 </head>
 <body>
@@ -12,9 +13,28 @@
         <input type="text" placeholder="Digite uma raça" id="raca" list="lista-racas">
         <datalist id="lista-racas"></datalist>
         <button id="pesquisar">Pesquisar</button>
+        <button id="abrir-modal">Abrir Modal</button>
     </header>
     <main>
         <div id="imagem-container" class="container"></div>
     </main>
+    <div class="modal-container" id="modal-container">
+        <div class="modal-content">
+            <header>
+                <h2>Modal</h2>
+            </header>
+            <form>
+                <label>Nome:</label>
+                <input type="">
+                <label>Celular:</label>
+                <input type="">
+                <label>E-mail:</label>
+                <input type="">
+            </form>
+            <footer>
+                <button id="fechar">Fechar</button>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
